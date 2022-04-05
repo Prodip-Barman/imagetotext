@@ -79,9 +79,11 @@ class _HomePageState extends State<HomePage> {
           image: DecorationImage(
             image: AssetImage("assets/images/back.jpg"),
             fit: BoxFit.cover,
-          )
+          ),
         ),
+        child: Text("git colaboration",style: TextStyle(fontSize: 30),),
       ),
+
     );
   }
 }
